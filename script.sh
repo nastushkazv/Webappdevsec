@@ -1,5 +1,5 @@
 #!/bin/bash
 # Task 2
-head -n '3,45p' ~/.bashrc > output.txt
+head -n 45 ~/.bashrc | tail -n 43 > output.txt
 echo -e "Success \n"
 cat output.txt
